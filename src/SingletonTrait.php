@@ -6,12 +6,12 @@ namespace elementary\core\Singleton;
 trait SingletonTrait
 {
     /**
-     * @var SingletonTrait
+     * @var self
      */
     protected static $instance = null;
 
     /**
-     * @return SingletonTrait
+     * @return self
      */
     public static function me()
     {
