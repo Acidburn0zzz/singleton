@@ -1,0 +1,21 @@
+{
+    "name":         "elementary/singleton",
+    "description":  "Singleton pattern trait",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":  "Artiom Vendelev",
+            "email": "artiom@vendelev.ru",
+            "role":  "Developer"
+        }
+    ],
+  "autoload": {
+      "psr-4": {
+          "elementary\\core\\Singleton\\": "src\\"
+      }
+  },
+  "require": {
+      "php": ">=5.6",
+      "phpunit/phpunit": "^5.7"
+  }
+}
